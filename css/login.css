@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+a:hover {
+    color: rgb(199, 191, 219);
+    transition: .5s;
+}
+
+body {
+    background-color: #000;
+    overflow: cover;
+    background-image: url(../img/index_bg.png)
+}
+
+canvas {
+    position: fixed;
+    overflow:cover;
+    z-index: -5;
+  }
+
+body .login-container {
+    width: 600px;
+    z-index: 500;
+    margin: 0 auto;
+    margin-top: 8%;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px 0px rgba(56, 230, 157, 0.7);
+    /*rgb(59,45,159)rgb(121, 88, 156,0.5),rgb(92,103,211,0.5)*/
+    background-color: rgba(12, 85, 95, 0.7);
+    user-select:none;
+}
+
+body .login-container .left-container {
+    display: inline-block;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 60px;
+    width: 330px;
+    user-select:none;
+    background-image: linear-gradient(to bottom right, rgba(8, 106, 119, 0.5), rgba(60, 126, 134, 0.5));
+}
+
+body .login-container .left-container .title {
+    color: #fff;
+    font-size: 18px;
+    user-select:none;
+}
+
+body .login-container .left-container .title span {
+    border-bottom: 3px solid rgb(231, 219, 52);
+    user-select:none;
+}
+
+body .login-container .left-container .input-container {
+    padding: 20px 0;
+    user-select:none;
+}
+
+body .login-container .left-container .input-container input {
+    user-select:none;
+    border: 0;
+    background: none;
+    outline: 0;
+    color: #fff;
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+    transition: .2s;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(199, 191, 219);
+}
+
+body .login-container .left-container .input-container input:hover {
+    border-bottom-color: #fff;
+    transition: .5s;
+    user-select:none;
+}
+
+body .login-container .left-container .message-container {
+    font-size: 14px;
+    color: rgb(199, 191, 219);
+    display: inline-block;
+    user-select:none;
+    cursor: pointer;
+}
+
+body .login-container .left-container .message-container:hover {
+    color: white;
+    transition: .5s;
+    user-select:none;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(199, 191, 219);
+}
+
+body .login-container .right-container {
+    width: 145px;
+    user-select:none;
+    display: inline-block;
+}
+
+.regist {
+    user-select: none;
+    font-size: 18px;
+    /*border-bottom: 3px solid rgb(237,221,22);*/
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: -125px;
+    right: -55px;
+    cursor: pointer;
+}
+
+.regist::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 3px solid rgb(224, 220, 155);
+    transition: all 0.2s linear;
+}
+
+.regist:hover::before {
+    border-bottom: 3px solid rgb(231, 219, 52);
+    width: 100%;
+    left: 0;
+    transition: all 0.3s linear;
+}
+
+
+
+
+.action-container span {
+    top: -15px;
+    border-radius: 100%;
+    padding: 10px;
+    line-height: 35px;
+    border: 2px solid rgb(237, 221, 22);
+    right: -45px;
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.action-container span:hover {
+    background-color: rgb(237, 221, 22);
+    color: rgb(95, 76, 194, 0.8);
+    transition: 0.8s;
+}

@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>一个小小的Blog</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="box">
+        <div id="header">
+            <a href="index.html"><img class="home-bot" src="img/home.png" width="45" height="45" alt="首页" /></a>
+            <div id="search">
+                <input class="search" autocomplete="off" type="search" name="s" placeholder="输入关键词搜索…"><button
+                    type="button" class="search-button"></button>
+            </div>
+            <a target="_blank" href="login.html"><span class="login">登录</span></a>
+            <a target="_blank" href="question.html"><span class="login">调查问卷</span></a>
+        </div>
+        <div id="left-nav">
+            <div class="name">
+                <div class="tx">
+                    <img alt="" src="img/02.jpg" width="100%" height="100%">
+                </div>
+                <a>谢子章</a>
+                <br>
+                <a style="font-size: 10px;color: rgba(151, 150, 150, 0.932);">A student of</a>
+                <br>
+                <a style="font-size: 10px;color: rgba(151, 150, 150, 0.932);">Nanchang Institute of Science and
+                    Technology</a>
+            </div>
+
+            <nav class="left-nav">
+                <span class="a">导航</span>
+                <details open class="det">
+                    <summary class="sum"><img alt="" width="30" height="30" src="img/lab.png"
+                            style="background-repeat: no-repeat;position: relative;right:20px;top: 11px;"><span>分类</span>
+                    </summary>
+                    <a href="#"><span>随笔</span></a>
+                    <a href="#"><span>游戏</span></a>
+                    <a href="#"><span>音乐</span></a>
+                    <a href="#"><span>相册</span></a>
+                    <a href="#"><span>影评</span></a>
+                </details>
+                <details class="det">
+                    <summary class="sum"><img alt="" width="25" height="25" src="img/frd.png"
+                            style="background-repeat: no-repeat;position: relative;right:22px;top: 8px;"><span>友链</span>
+                    </summary>
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=1076051802&site=qq&menu=yes"
+                        target="_blank"><span>QQ</span></a>
+                    <a href="https://mioe.xyz" target="_blank"><span>Mioe</span></a>
+                    <a href="https://github.com/AzSail/Fisrt-blog" target="_blank"><span>Github</span></a>
+                </details>
+            </nav>
+        </div>
+        <div id="right-nav">
+            <audio id="audio" src="mp3/1.mp3" loop autoplay>
+            </audio>
+            <button class="but-mus" onclick="play()"></button>
+            <script>
+                function play() {
+                    audio.play();
+                }
+            </script>
+            <div>
+                <img onclick="play()" class="music-pic" src="img/4.png" title="晴天的周末在去学校补课的路上遇见了喜欢的人" alt="晴天的周末在去学校补课的路上遇见了喜欢的人"><br>
+                <span style="color: rgb(124, 124, 124);font-family: 仿宋;font-size: 20px;">音乐自动播放中</span>
+                <br>
+                <span style="color: rgb(124, 124, 124);font-family: 楷体;font-size: 13px;">（如果无法自动播放，请点击图片播放）</span>
+            </div>
+            <section>
+                <ul>
+                    <div class="small-header">
+                        <a href="question.html" target="_blank">
+                            <div class="top-img"><img alt="" src="img/1.1.jpg" width="45" height="45">
+                            </div><span class="right-note">调查问卷</span><br><time class="mess-time1">2020 年 5 月 12
+                                日</time>
+                        </a>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="small-header"><a href="login.html" target="_blank">
+                            <div class="top-img"><img alt="" src="img/1.2.jpg" width="45" height="45">
+                            </div><span class="right-note">注册</span><br><time class="mess-time1">2020 年 5 月 12 日</time>
+                        </a>
+                </ul>
+                <ul>
+                    <div class="small-header"><a href="1.html" target="_blank">
+                            <div class="top-img"><img alt="" src="img/1.3.jpg" width="45" height="45">
+                            </div><span class="right-note">其他</span><br><time class="mess-time1">2020 年 5 月 12 日</time>
+                        </a>
+                </ul>
+            </section>
+            <section class="sec">
+                <h2>标签</h2>
+                <i class="i">大学生</i>
+                <i class="i">南昌工学院</i>
+                <br>
+                <i class="i">计算机网络技术</i>
+                <br>
+                <i class="i">音乐</i>
+                <br>
+                <i class="i">游戏</i><i class="i" log>Blog</i>
+                <br>
+                <a href="https://mioe.xyz"><i class="i">Mioe.xyz</i></a>
+            </section>
+
+        </div>
+        <div id="alt">
+            <div class="logo">
+                <h1 class="lg-zt">一个小小的Blog</h1>
+                <br>
+                <h5 class="lg-zt1">迷失的人迷失了，相逢的人会再相逢</h5>
+            </div>
+            <div class="mess-t">
+                <div class="mess-1">
+                    <a class="mess-a" href="question.html" target="_blank">
+                        <img src="img/1.jpg" width="650" height="150" alt="">
+                        <h3 class="mess-2">调查问卷</h3><br>
+                        <p class="mess-3">1</p><br>
+                        <hr width="300px"><br>
+                        <time class="mess-time">2020 年 5 月 12 日</time>
+                    </a>
+                </div>
+                <div class="mess-1">
+                    <a  target="_blank" class="mess-a" href="login.html">
+                        <img src="img/2.jpg" width="650" height="150" alt="">
+                        <h3 class="mess-2">注册</h3><br>
+                        <p class="mess-3">1</p><br>
+                        <hr width="300px"><br>
+                        <time class="mess-time">2020 年 5 月 12 日</time>
+                    </a>
+                </div>
+                <div class="mess-1">
+                    <a class="mess-a" href="1.html"  target="_blank">
+                        <img src="img/3.jpg" width="650" height="150" alt="">
+                        <h3 class="mess-2">其他</h3><br>
+                        <p class="mess-3">1</p><br>
+                        <hr width="300px"><br>
+                        <time class="mess-time">2020 年 5 月 12 日</time>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <span style="font-size: 10px">版权所有©人工智能学院智能B1962</span><br>
+            <span style="font-size: 10px;">2020-2028谢子章制作</span>
+        </footer>
+    </div>
+</body>
+
+</html>
